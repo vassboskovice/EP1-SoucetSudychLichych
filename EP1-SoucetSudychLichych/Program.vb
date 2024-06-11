@@ -17,5 +17,16 @@ Module Program
         Next
         Console.WriteLine("Stisknìte libovolnou klávesu pro ukonèení.")
         Console.ReadKey()
+   
+    Console.WriteLine("Zadej nìjaké celé èíslo")
+Dim a As Integer = Console.ReadLine()
+If a <= 0.1 Then
+    Console.WriteLine("Zadal jsi èíslo, které není celé ")
+End If
+Console.WriteLine("Dìkuji za zadání")
+Console.ReadKey()
+    
+    
+    
     End Sub
 End Module
